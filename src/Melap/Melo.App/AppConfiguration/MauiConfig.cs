@@ -1,7 +1,10 @@
 namespace Melo.App.AppConfiguration;
 
 using Microsoft.Extensions.Logging;
+using ReactiveUI;
 using ReactiveUI.Builder;
+using ReactiveUI.Maui;
+using Splat;
 using System.Diagnostics.CodeAnalysis;
 
 [ExcludeFromCodeCoverage]
@@ -34,12 +37,14 @@ public static class MauiConfig
 
 	private static MauiAppBuilder SetRxUI(this MauiAppBuilder builder)
 	{
+
 		builder.UseReactiveUI(rxBuilder =>
 		{
-			rxBuilder
-				.WithPlatformServices()
-				.WithMessageBus();
+			rxBuilder.WithMaui()
+					 .WithMauiScheduler()
+					 .WithRegistration(resolver => resolver.Register<IActivationForViewFetcher>(() => new ActivationForViewFetcher()));
 		});
+
 		return builder;
 	}
 }
