@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bases:BaseContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:bases="clr-namespace:Melo.App.Bases"
+                       xmlns:queryHistory="clr-namespace:Melo.App.Features.QueryHistory"
+                       x:Class="Melo.App.Features.QueryHistory.QueryHistoryPage"
+                       x:TypeArguments="queryHistory:QueryHistoryViewModel"
+                       Title="Query History">
+
+    <VerticalStackLayout Padding="20" VerticalOptions="Center">
+        <Label Text="Query History" FontSize="24" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+
+</bases:BaseContentPage>
+

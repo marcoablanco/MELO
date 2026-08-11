@@ -4,7 +4,6 @@ using Microsoft.Extensions.Logging;
 using ReactiveUI;
 using ReactiveUI.Builder;
 using ReactiveUI.Maui;
-using Splat;
 using System.Diagnostics.CodeAnalysis;
 
 [ExcludeFromCodeCoverage]
