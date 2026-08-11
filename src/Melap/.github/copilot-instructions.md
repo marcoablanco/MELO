@@ -1,0 +1,1 @@
+Leer ../../../.copilot/copilot.md

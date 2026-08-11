@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melo.App", "Melo.App\Melo.App.csproj", "{34FF38F8-9DC0-40C3-A048-F21754276701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Others", "00.Others", "{3E1DF695-4C60-452B-BBB4-8CC00A2A44D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Copilot", "01.Copilot", "{415B801A-EA8B-454A-8006-2D13A74C907A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.copilot\copilot.md = ..\..\.copilot\copilot.md
+		.github\copilot-instructions.md = .github\copilot-instructions.md
+		.github\git-commit-instructions.md = .github\git-commit-instructions.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Tests", "01.Tests", "{B2A00003-0003-0003-0003-000000000003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Presentations", "02.Presentations", "{B2A00001-0001-0001-0001-000000000001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Application", "03.Application", "{B2A00002-0002-0002-0002-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melo.Logic", "Melo.Logic\Melo.Logic.csproj", "{643D1B89-F49F-4BD4-9A29-B43E6739CC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melo.Logic.Tests", "Melo.Logic.Tests\Melo.Logic.Tests.csproj", "{325EE750-5ACE-4A78-8C2B-2BD3B5C47B6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34FF38F8-9DC0-40C3-A048-F21754276701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FF38F8-9DC0-40C3-A048-F21754276701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FF38F8-9DC0-40C3-A048-F21754276701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FF38F8-9DC0-40C3-A048-F21754276701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643D1B89-F49F-4BD4-9A29-B43E6739CC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643D1B89-F49F-4BD4-9A29-B43E6739CC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643D1B89-F49F-4BD4-9A29-B43E6739CC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643D1B89-F49F-4BD4-9A29-B43E6739CC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325EE750-5ACE-4A78-8C2B-2BD3B5C47B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325EE750-5ACE-4A78-8C2B-2BD3B5C47B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325EE750-5ACE-4A78-8C2B-2BD3B5C47B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325EE750-5ACE-4A78-8C2B-2BD3B5C47B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{415B801A-EA8B-454A-8006-2D13A74C907A} = {3E1DF695-4C60-452B-BBB4-8CC00A2A44D1}
+		{34FF38F8-9DC0-40C3-A048-F21754276701} = {B2A00001-0001-0001-0001-000000000001}
+		{643D1B89-F49F-4BD4-9A29-B43E6739CC9C} = {B2A00002-0002-0002-0002-000000000002}
+		{325EE750-5ACE-4A78-8C2B-2BD3B5C47B6D} = {B2A00003-0003-0003-0003-000000000003}
+	EndGlobalSection
+EndGlobal

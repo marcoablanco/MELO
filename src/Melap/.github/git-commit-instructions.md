@@ -1,0 +1,1 @@
+No hacer nunca commit, push, stage ni ningún comando de escritura.

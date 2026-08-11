@@ -1,0 +1,5 @@
+N:System.Reactive;Use ReactiveUI primitives instead of System.Reactive
+N:System.Reactive.Disposables;Use ReactiveUI MultipleDisposable instead of CompositeDisposable
+N:System.Reactive.Linq;Use ReactiveUI primitives instead of System.Reactive.Linq
+N:System.Reactive.Subjects;Use ReactiveUI primitives instead of System.Reactive.Subjects
+
