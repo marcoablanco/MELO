@@ -1,5 +1,6 @@
 ﻿namespace Melo.App;
 
+using Melo.App.Features.Home;
 using Melo.Logic.AppConfiguration;
 using Microsoft.Extensions.Logging;
 
@@ -34,14 +35,16 @@ public static class MauiProgram
 
 	public static MauiAppBuilder RegisterServices(this MauiAppBuilder builder)
 	{
-		AppBootstrapper.InitAppLogic(builder.Services);
+		builder.Services.InitAppLogic();
 		return builder;
 	}
 
 	public static MauiAppBuilder RegisterFeatures(this MauiAppBuilder builder)
 	{
 		builder.Services
-			.AddTransient<AppShell>();
+			.AddTransient<AppShell>()
+			.AddTransient<HomePage>()
+			.AddTransient<HomeViewModel>();
 
 		return builder;
 	}
